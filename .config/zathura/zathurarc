@@ -1,0 +1,8 @@
+# Aktiviert den Recolor-Modus standardmäßig
+set recolor true
+
+# Setzt die Hintergrundfarbe (hier ein weiches Dunkelgrau)
+set recolor-lightcolor "#2E3440"
+
+# Setzt die Schriftfarbe (hier ein angenehmes Creme/Beige)
+set recolor-darkcolor "#ECEFF4"
