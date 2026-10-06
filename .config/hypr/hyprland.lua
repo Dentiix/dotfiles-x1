@@ -395,7 +395,7 @@ hl.window_rule({
 
 	no_focus = true,
 })
-
+-- Hallo Lara
 -- Layer rules also return a handle.
 -- local overlayLayerRule = hl.layer_rule({
 --     name  = "no-anim-overlay",
