@@ -1,5 +1,5 @@
-# Aktiviert den Recolor-Modus standardmäßig
-set recolor true
+# Aktiviert den Recolor-Modus standardmäßig oder deaktiviert ihn standardmäßig
+set recolor false
 
 # Setzt die Hintergrundfarbe (hier ein weiches Dunkelgrau)
 set recolor-lightcolor "#2E3440"

@@ -5,6 +5,7 @@ blueman
 bluez
 bluez-utils
 brightnessctl
+btop
 clang
 cmake
 cowsay
@@ -57,6 +58,7 @@ pipewire-pulse
 prismlauncher
 python-pip
 qt6-wayland
+rclone
 reflector
 ripgrep
 rnote
