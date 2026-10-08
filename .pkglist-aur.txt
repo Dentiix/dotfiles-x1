@@ -3,7 +3,6 @@ fiji-bin
 hyprshade
 iio-sensor-proxy-git
 neofetch
-thinkfan
 waybar-git
 yay
 yay-debug
