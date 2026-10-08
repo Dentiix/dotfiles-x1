@@ -19,6 +19,7 @@ fd
 figlet
 firefox
 fuzzel
+fwupd
 git
 grim
 grub
@@ -75,6 +76,7 @@ texlive-langgerman
 texlive-latexextra
 texlive-mathscience
 texlive-meta
+thermald
 tk
 ttf-dejavu
 ttf-jetbrains-mono-nerd
