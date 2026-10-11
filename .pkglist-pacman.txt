@@ -43,6 +43,7 @@ linux-firmware
 mako
 mesa
 meson
+mkinitcpio
 mpv
 nano
 nautilus
@@ -68,8 +69,10 @@ sl
 slurp
 stress
 stress-ng
+sudo
 swappy
 tealdeer
+tesseract-data-deu
 texlive-basic
 texlive-binextra
 texlive-langgerman
@@ -95,4 +98,5 @@ xf86-input-wacom
 zathura
 zathura-pdf-mupdf
 zip
+zram-generator
 zsh
