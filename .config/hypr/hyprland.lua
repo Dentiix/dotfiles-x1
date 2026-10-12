@@ -25,7 +25,6 @@ hl.monitor({
 	mode = "preferred",
 	position = "auto",
 	scale = "1.2",
-	--tessst
 })
 
 ---------------------
