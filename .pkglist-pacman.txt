@@ -65,6 +65,7 @@ reflector
 ripgrep
 rnote
 s-tui
+sbctl
 sl
 slurp
 stress

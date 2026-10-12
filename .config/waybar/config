@@ -6,7 +6,7 @@
 
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["clock"],
-    "modules-right": ["memory", "disk", "temperature" ,"wireplumber", "battery#bat1", "battery", "hyprland/language", "bluetooth", "network",  "tray"],
+    "modules-right": ["tray", "memory", "disk", "temperature" ,"wireplumber", "battery", "hyprland/language", "bluetooth", "network"],
 
     "hyprland/workspaces": {
         "format": "<span size='larger'>{icon}</span>",
@@ -46,15 +46,6 @@
         "format-icons": ["\uf244", "\uf243", "\uf242", "\uf241", "\uf240"]
     },
 
-    "battery#bat1": {
-        "bat": "BAT1",
-        "interval": 5,
-        "format": "{icon}  {capacity}%",
-        "format-charging": " {icon}  {capacity}%",
-        "format-discharging": "{icon}  {capacity}%",
-        "format-full": "{icon}  {capacity}%",
-        "format-icons": ["\uf244", "\uf243", "\uf242", "\uf241", "\uf240"]
-    },
     "disk": {
         "interval": 30,
         "format": "  {percentage_used}%",
