@@ -96,11 +96,11 @@
     },
 
     "custom/rnote-clip": {
-        "exec": "printf '{\"text\": \"󰆞 \", \"tooltip\": \"\", \"class\": \"active\"}\\n'",
+        "exec": "printf '{\"text\": \"\udb83\ude51 \", \"tooltip\": \"Bereich ausschneiden und in Rnote einfügen\", \"class\": \"active\"}\\n'",
         "exec-if": "pgrep -x rnote",
         "return-type": "json",
         "interval": 1,
-        "on-click": "~/.config/hypr/rnote-clip.sh"
+        "on-click": "~/.config/hypr/scripts/rnote-clip.sh"
     }
 	//     "custom/platform-profile": {
 	// "format": "{icon} ",
