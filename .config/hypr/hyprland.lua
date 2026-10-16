@@ -423,3 +423,10 @@ hl.device({
 	name = "wacom-pen-and-multitouch-sensor-pen",
 	output = "eDP-1",
 })
+
+-- Regel fuer rnote screenshot script
+hl.layer_rule({
+	name = "no-anim-for-selection",
+	match = { namespace = "selection" },
+	no_anim = true,
+})

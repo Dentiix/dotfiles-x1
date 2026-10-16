@@ -93,6 +93,7 @@ wev
 wf-recorder
 wireplumber
 woff2-font-awesome
+wtype
 xdg-desktop-portal-hyprland
 xdotool
 xf86-input-wacom

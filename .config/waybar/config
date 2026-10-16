@@ -6,7 +6,7 @@
 
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["clock"],
-    "modules-right": ["tray", "memory", "disk", "temperature" ,"wireplumber", "battery", "hyprland/language", "bluetooth", "network"],
+    "modules-right": ["tray", "custom/rnote-clip", "memory", "disk", "temperature" ,"wireplumber", "battery", "hyprland/language", "bluetooth", "network"],
 
     "hyprland/workspaces": {
         "format": "<span size='larger'>{icon}</span>",
@@ -95,6 +95,13 @@
         "spacing": 16
     },
 
+    "custom/rnote-clip": {
+        "exec": "printf '{\"text\": \"󰆞 \", \"tooltip\": \"\", \"class\": \"active\"}\\n'",
+        "exec-if": "pgrep -x rnote",
+        "return-type": "json",
+        "interval": 1,
+        "on-click": "~/.config/hypr/rnote-clip.sh"
+    }
 	//     "custom/platform-profile": {
 	// "format": "{icon} ",
 	// "exec": "~/.config/waybar/platform_profile.sh",
