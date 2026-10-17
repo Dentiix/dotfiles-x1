@@ -24,8 +24,13 @@
     color: @foreground-inactive;
 }
 
+#tray {
+    margin-right: 13px; /* Wert verringern */
+    padding-left: 9px;
+}
+
 #memory {
-    padding-left: 10px;
+    padding-left: 0px;
     margin-right: 11px;
 }
 
@@ -46,7 +51,6 @@
 #idle_inhibitor,
 #language,
 #network,
-#bluetooth,
-#tray {
-    padding-right: 1em 
+#bluetooth {
+    margin-right: 1em;
 }

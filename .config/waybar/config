@@ -6,7 +6,7 @@
 
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["clock"],
-    "modules-right": ["tray", "custom/rnote-clip", "memory", "disk", "temperature" ,"wireplumber", "battery", "hyprland/language", "bluetooth", "network"],
+    "modules-right": ["custom/rnote-clip", "tray", "memory", "disk", "temperature" ,"wireplumber", "battery", "hyprland/language", "bluetooth", "network"],
 
     "hyprland/workspaces": {
         "format": "<span size='larger'>{icon}</span>",
@@ -92,14 +92,14 @@
 
     "tray": {
         "icon-size": 16,
-        "spacing": 16
+        "spacing": 0
     },
 
     "custom/rnote-clip": {
         "exec": "printf '{\"text\": \"\udb83\ude51 \", \"tooltip\": \"Bereich ausschneiden und in Rnote einfügen\", \"class\": \"active\"}\\n'",
         "exec-if": "pgrep -x rnote",
         "return-type": "json",
-        "interval": 1,
+        "interval": 3,
         "on-click": "~/.config/hypr/scripts/rnote-clip.sh"
     }
 	//     "custom/platform-profile": {
