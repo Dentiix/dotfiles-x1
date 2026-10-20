@@ -24,9 +24,20 @@
     color: @foreground-inactive;
 }
 
+#custom-rnote-brightness{
+    margin-right: 17px;
+    padding-left: 10px;
+
+}
+
+#custom-rnote-clip {
+    margin-right: 5px;
+    padding-left: 1px;
+}
+
 #tray {
     margin-right: 13px; /* Wert verringern */
-    padding-left: 9px;
+    padding-left: 3px;
 }
 
 #memory {

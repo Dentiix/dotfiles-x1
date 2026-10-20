@@ -6,7 +6,7 @@
 
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["clock"],
-    "modules-right": ["custom/rnote-clip", "tray", "memory", "disk", "temperature" ,"wireplumber", "battery", "hyprland/language", "bluetooth", "network"],
+    "modules-right": ["custom/rnote-brightness", "custom/rnote-clip", "tray", "memory", "disk", "temperature" ,"wireplumber", "battery", "hyprland/language", "bluetooth", "network"],
 
     "hyprland/workspaces": {
         "format": "<span size='larger'>{icon}</span>",
@@ -96,12 +96,21 @@
     },
 
     "custom/rnote-clip": {
-        "exec": "printf '{\"text\": \"\udb83\ude51 \", \"tooltip\": \"Bereich ausschneiden und in Rnote einfügen\", \"class\": \"active\"}\\n'",
+        "exec": "printf '{\"text\": \"\udb83\ude51 \", \"tooltip\": \"take a screenshot and save it to clipboard\", \"class\": \"active\"}\\n'",
         "exec-if": "pgrep -x rnote",
         "return-type": "json",
         "interval": 3,
         "on-click": "~/.config/hypr/rnote-clip.sh"
-    }
+    },
+
+    "custom/rnote-brightness": {
+    "format": "{}",
+    "return-type": "json",
+    "exec": "echo '{\"text\": \"󰃠\", \"tooltip\": \"change brightness\"}'",
+    "exec-if": "pgrep -x rnote",
+    "interval": 3,
+    "on-click": "~/.config/hypr/cycle_brightness.sh"
+}
 	//     "custom/platform-profile": {
 	// "format": "{icon} ",
 	// "exec": "~/.config/waybar/platform_profile.sh",
