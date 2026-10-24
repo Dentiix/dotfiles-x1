@@ -1,8 +1,8 @@
 betterbird-bin
 fiji-bin
-hyprshade
 iio-sensor-proxy-git
 neofetch
 waybar-git
 yay
 yay-debug
+zotero-bin
