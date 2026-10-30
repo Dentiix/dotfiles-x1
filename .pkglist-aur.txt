@@ -4,5 +4,4 @@ iio-sensor-proxy-git
 neofetch
 waybar-git
 yay
-yay-debug
 zotero-bin
