@@ -56,7 +56,9 @@
 #disk {
     margin-right: 8px;
 }
-
+#cpu {
+  margin-right: 8px;
+}
 #wireplumber,
 #battery,
 #idle_inhibitor,

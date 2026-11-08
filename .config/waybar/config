@@ -6,7 +6,7 @@
 
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["clock"],
-    "modules-right": ["custom/rnote-brightness", "custom/rnote-clip", "tray", "memory", "disk", "temperature" ,"wireplumber", "battery", "hyprland/language", "bluetooth", "network"],
+    "modules-right": ["custom/rnote-brightness", "custom/rnote-clip", "tray", "disk", "memory", "cpu", "temperature" ,"wireplumber", "battery", "hyprland/language", "bluetooth", "network"],
 
     "hyprland/workspaces": {
         "format": "<span size='larger'>{icon}</span>",
@@ -55,9 +55,16 @@
 
     "memory": {
          "interval": 5,
-         "format": "  {percentage}%",
+         "format": "\uefc5  {percentage}%",
          "tooltip": true,
          "tooltip-format": "{used}/{total}GB used"
+    },
+
+    "cpu": {
+        "interval": 3,
+        "format": "\uf4bc  {usage:02}%",
+        "tooltip": true,
+        "tooltip-format": "CPU Usage: {usage}%"
     },
 
     "temperature": {
