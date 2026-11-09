@@ -54,7 +54,7 @@
     },
 
     "memory": {
-         "interval": 5,
+         "interval": 3,
          "format": "\uefc5  {percentage:02}%",
          "tooltip": true,
          "tooltip-format": "{used}/{total}GB used"

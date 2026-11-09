@@ -2,6 +2,7 @@ acpi
 base
 base-devel
 biber
+blanket
 blueman
 bluez
 bluez-utils
