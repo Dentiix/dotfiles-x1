@@ -58,6 +58,7 @@ noto-fonts
 npm
 obsidian
 openssh
+pdfarranger
 pipewire
 pipewire-alsa
 pipewire-pulse
