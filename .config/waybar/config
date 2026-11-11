@@ -57,7 +57,7 @@
          "interval": 3,
          "format": "\uefc5  {percentage:02}%",
          "tooltip": true,
-         "tooltip-format": "{used}/{total}GB used"
+         "tooltip-format": "{used:.2f}/{total:.2f}GB used"
     },
 
     "cpu": {

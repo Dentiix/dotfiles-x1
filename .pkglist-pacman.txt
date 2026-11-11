@@ -39,6 +39,7 @@ jre21-openjdk
 keyd
 kitty
 less
+libhandy
 libreoffice-fresh
 libva-intel-driver
 linux
