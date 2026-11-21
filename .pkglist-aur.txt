@@ -1,5 +1,4 @@
 betterbird-bin
-fiji-bin
 iio-sensor-proxy-git
 neofetch
 waybar-git
