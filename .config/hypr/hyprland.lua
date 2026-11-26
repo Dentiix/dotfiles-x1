@@ -107,7 +107,8 @@ hl.config({
 		col = {
 			--ORIGINAL: active_border = { colors = { "rgba(33ccffee)", "rgba(00ff99ee)" }, angle = 45 },
 			-- purple:  active_border = "rgba(9d00ffee)",
-			active_border = "rgba(33ccffee)",
+			active_border = "rgba(1abb9bff)",
+			-- active_border = "rgba(33ccffee)", TÜRKIS
 			inactive_border = "rgba(595959aa)",
 		},
 

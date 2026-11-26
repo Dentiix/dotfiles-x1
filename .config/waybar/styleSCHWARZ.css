@@ -1,0 +1,69 @@
+@define-color foreground #eeeeee;
+@define-color foreground-inactive #aaaaaa;
+@define-color background #000000;
+
+* {
+    font-family: JetBrainsMono Nerd Font;
+    font-size: 17px;
+    padding: 0;
+    margin: 0;
+}
+
+#waybar {
+    color: @foreground;
+    background-color: @background;
+}
+
+#workspaces button {
+    color: @foreground;
+    padding-left: 0.7em;
+    background-color: transparent;
+}
+
+#workspaces button.empty {
+    color: @foreground-inactive;
+}
+
+#custom-rnote-brightness{
+    margin-right: 17px;
+    padding-left: 10px;
+
+}
+
+#custom-rnote-clip {
+    margin-right: 5px;
+    padding-left: 1px;
+}
+
+#tray {
+    margin-right: 13px; /* Wert verringern */
+    padding-left: 3px;
+}
+
+#memory {
+    padding-left: 0px;
+    margin-right: 11px;
+}
+
+/* #custom-platform-profile { */
+/*     padding-left: 1em */
+/* } */
+
+#temperature {
+    margin-right: 10px;
+}
+
+#disk {
+    margin-right: 8px;
+}
+#cpu {
+  margin-right: 8px;
+}
+#wireplumber,
+#battery,
+#idle_inhibitor,
+#language,
+#network,
+#bluetooth {
+    margin-right: 1em;
+}
