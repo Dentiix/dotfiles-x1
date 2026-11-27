@@ -123,11 +123,12 @@
 }
 
 /* Tooltips */
+@define-color tooltip-border #1abb9b;
 
 tooltip {
     background-color: @background-alt;
     color: @foreground;
-    border: 1px solid @accent;
+    border: 1px solid @tooltip-border;
     border-radius: 6px;
     padding: 5px;
 }

@@ -24,6 +24,7 @@ fuzzel
 fwupd
 git
 gnome-keyring
+gnome-themes-extra
 grim
 grub
 gvfs-mtp
@@ -106,6 +107,7 @@ wtype
 xdg-desktop-portal-hyprland
 xdotool
 xf86-input-wacom
+yt-dlp
 zathura
 zathura-pdf-mupdf
 zip
